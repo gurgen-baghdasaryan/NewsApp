@@ -10,9 +10,9 @@ class Head extends Component {
   render() {
     return (
 
-      <div>
+      <div className="head">
         <Nav />
-      <p>{this.context}</p>
+        <p>{this.context}</p>
       </div>
 
 

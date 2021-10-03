@@ -1,0 +1,13 @@
+@import '../utils/mixins';
+
+.listNews{
+    background-color: $color-list;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: stretch;
+    @media only screen and (max-width:640px) {
+        justify-content: center;
+    }
+}

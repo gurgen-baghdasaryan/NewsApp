@@ -1,9 +1,9 @@
 import { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import './App.css';
-
-
 import { userContext } from './context/userContext';
+
+import './App.css';
+import './styles/styles.scss'
 import Main from './components/Main';
 import Head from './components/Head'
 

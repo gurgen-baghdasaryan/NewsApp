@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
-import { userContext } from '../../context/userContext';
+
+
 
 class Home extends Component {
  
@@ -16,10 +17,11 @@ class Home extends Component {
 
     return (
 
-      <div>
+      <div className="home">
           <input type="text" value={this.state.userName} onChange={(e) => this.setState({ userName: e.target.value })} />
-          <button type="button" onClick={()=> this.props.changeUserName(this.state.userName)}>Add User</button>
-       
+          <button className='button' esutton type="button"  onClick={()=> this.props.changeUserName(this.state.userName)}>Add User</button>
+         
+        
       </div>
 
     );

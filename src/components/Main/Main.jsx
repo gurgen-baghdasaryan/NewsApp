@@ -42,7 +42,7 @@ class Main extends Component {
   render() {
     return (
 
-        <div>
+        <div className="main">
           <main>
             <Switch>
               <Route path="/" component={()=> <Home changeUserName={this.props.changeUserName}/>} exact />

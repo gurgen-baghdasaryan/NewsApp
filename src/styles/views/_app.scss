@@ -1,0 +1,27 @@
+*{
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    background-color: $color-black;
+    color: #ffffff;
+    padding: 0 21px;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+    height: 28px;
+    border-radius: 5px;
+    transition: 0.7s;
+    border: 1px solid $color-black;
+    &:hover{
+        color: $color-black;
+        background-color: #ffffff;
+    }
+}
