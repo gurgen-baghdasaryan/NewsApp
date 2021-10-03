@@ -5,6 +5,7 @@ import axios from 'axios'
 import ListNews from "../ListNews";
 import Form from "../Form";
 import Home from "../Home"
+import Error from '../Error'
 
 
 
@@ -48,6 +49,7 @@ class Main extends Component {
               <Route path="/" component={()=> <Home changeUserName={this.props.changeUserName}/>} exact />
               <Route path="/form" component={() => <Form addNew={this.addNew} />} />
               <Route path="/list" component={() => <ListNews noticias={this.state.news} remove={this.removeNews} />} />
+              <Route component={Error} />
             </Switch>
           </main>
         </div>
