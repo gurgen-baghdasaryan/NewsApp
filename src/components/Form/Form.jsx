@@ -36,8 +36,8 @@ class Form extends Component {
   render() {
     return (
 
-      <div>
-        <form onSubmit={this.addProduct} >
+      <div >
+        <form className="form" onSubmit={this.addProduct} >
 
           <label>
             Title:
@@ -54,7 +54,7 @@ class Form extends Component {
           </label>
           <input type="url" name="urlToImage" ref={this.urlToImage} />
 
-          <input type="submit" value="Submit" />
+          <input className="button" type="submit" value="Submit" />
         </form>
 
       </div>

@@ -1,0 +1,13 @@
+@import '../utils/mixins';
+
+.form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-content: center;
+        justify-content: center;
+        width: 250px;
+        input{
+                margin-bottom: 15px;
+        }
+}

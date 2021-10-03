@@ -18,7 +18,7 @@ class ListNews extends Component {
  
 
   render() {
-    return (<div >
+    return (<div className="listNews" >
       {this.paintNews()}
 
     </div>
