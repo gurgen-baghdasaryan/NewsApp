@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { userContext } from "../../context/userContext";
 
 import Nav from '../Nav'
+import Footer from '../Footer'
 
 class Head extends Component {
 
@@ -11,12 +12,11 @@ class Head extends Component {
     return (
 
       <div className="head">
+        <h3>FN</h3>
         <Nav />
+        <Footer />
         <p>{this.context}</p>
       </div>
-
-
-
     )
   }
 }

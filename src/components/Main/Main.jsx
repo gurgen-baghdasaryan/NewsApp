@@ -27,7 +27,7 @@ class Main extends Component {
 
   addNew = (newsItem) => {
 
-    this.setState({ news: [... this.state.news, newsItem] })
+    this.setState({ news: [...this.state.news, newsItem] })
   }
 
   removeNews = (newsTitle) => {
