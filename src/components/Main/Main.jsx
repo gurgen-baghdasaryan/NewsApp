@@ -19,7 +19,7 @@ class Main extends Component {
   }
 
   async componentDidMount() {
-    const res = await axios.get('https://newsapi.org/v2/top-headlines?country=us&pageSize=5&apiKey=33e0e42274cd4b37a8e3423c0fd6418b')
+    const res = await axios.get('https://newsapi.org/v2/everything?q=tesla&from=2021-09-03&pageSize=5&sortBy=publishedAt&apiKey=caa41b373abc4af58b84ad913d08eb19')
     const data = await res.data
     this.setState({ news: [...this.state.news, ...data.articles] })
   }
