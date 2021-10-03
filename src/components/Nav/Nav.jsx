@@ -8,8 +8,8 @@ class Nav extends Component {
     return (
       <ul className="nav">
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/form">Crear noticias</Link></li>
-        <li><Link to="/list">Noticias</Link></li>
+        <li><Link to="/form">Create News</Link></li>
+        <li><Link to="/list">News</Link></li>
       </ul>
     )
   }

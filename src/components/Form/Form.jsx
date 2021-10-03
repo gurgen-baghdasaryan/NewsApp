@@ -45,7 +45,7 @@ class Form extends Component {
           <input type="text" name="title"  /> 
 
           <label>
-            Descripción:
+            Description:
           </label>
           <input type="text" name="description" />
           
