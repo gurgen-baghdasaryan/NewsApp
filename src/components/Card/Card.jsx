@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 
-
+// cards
 class NewsCard extends Component {
 
 
