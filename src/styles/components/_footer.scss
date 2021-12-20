@@ -1,9 +1,7 @@
 @import '../utils/variables';
-@import '../utils/mixins';
 
 
 .footer {
-    @include text-align;
     background-color: $color-head;
     padding-top: 10px;
 }

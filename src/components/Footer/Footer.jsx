@@ -1,20 +1,21 @@
 import React, { Component } from "react";
-import { Container } from "react-bootstrap";
 
 
 class Footer extends Component {
   render() {
     return (
-      <footer>
-        <Container>
-            <div>FirstNews</div>
-            <div>
-              <a href="https://github.com/gugohh">By Gugohh</a>
-            </div>
-        </Container>
+
+      <footer className="bg-dark text-center text-white">
+        <p>Author: GGB
+          <a href="https://github.com/gurgen-baghdasaryan">GitHub</a>
+          <a href="https://github.com/gurgen-baghdasaryan">GitHub</a>
+          <a href="https://github.com/gurgen-baghdasaryan">GitHub</a>
+          <a href="https://github.com/gurgen-baghdasaryan">GitHub</a>
+        </p>
+
       </footer>
-    );
+        );
   }
 }
 
-export default Footer;
+        export default Footer;
