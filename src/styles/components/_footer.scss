@@ -1,7 +1,12 @@
-@import '../utils/variables';
-
-
 .footer {
-    background-color: $color-head;
-    padding-top: 10px;
+    width: 100%;
+    font-size: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
 }

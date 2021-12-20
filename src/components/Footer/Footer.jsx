@@ -5,11 +5,8 @@ class Footer extends Component {
   render() {
     return (
 
-      <footer className="bg-dark text-center text-white">
+      <footer className="footer">
         <p>Author: GGB
-          <a href="https://github.com/gurgen-baghdasaryan">GitHub</a>
-          <a href="https://github.com/gurgen-baghdasaryan">GitHub</a>
-          <a href="https://github.com/gurgen-baghdasaryan">GitHub</a>
           <a href="https://github.com/gurgen-baghdasaryan">GitHub</a>
         </p>
 
