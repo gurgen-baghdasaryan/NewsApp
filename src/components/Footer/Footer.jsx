@@ -10,6 +10,7 @@ class Footer extends Component {
             <div>FirstNews</div>
             <div>
               <a href="https://github.com/gugohh">By Gugohh</a>
+              <a href="https://github.com/gugohh">By Gugohh</a>
             </div>
         </Container>
       </footer>
