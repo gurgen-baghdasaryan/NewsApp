@@ -2,11 +2,21 @@
     font-family: 'PT Sans Narrow', sans-serif;
     margin: 0;
     padding: 0;
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
 }
 
 .App {
     display: flex;
     flex-direction: column;
+    scrollbar-width: none;
+    background-color: rosybrown;
+    
+
+
 }
 
 .button{

@@ -2,10 +2,10 @@ import { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { userContext } from './context/userContext';
 
-import './App.css';
 import './styles/styles.scss'
 import Main from './components/Main';
-import Head from './components/Head'
+import Head from './components/Head';
+import Footer from './components/Footer';
 
 
 class App extends Component {
@@ -29,7 +29,9 @@ class App extends Component {
           <BrowserRouter>
             <Head />
             <Main changeUserName={this.changeUserName} />
+            
           </BrowserRouter>
+          <Footer/>
         </div>
       </userContext.Provider>
       
