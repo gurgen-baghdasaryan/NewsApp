@@ -8,6 +8,9 @@ class Footer extends Component {
       <footer className="bg-dark text-center text-white">
         <p>Author: GGB
           <a href="https://github.com/gurgen-baghdasaryan">GitHub</a>
+          <a href="https://github.com/gurgen-baghdasaryan">GitHub</a>
+          <a href="https://github.com/gurgen-baghdasaryan">GitHub</a>
+          <a href="https://github.com/gurgen-baghdasaryan">GitHub</a>
         </p>
 
       </footer>
