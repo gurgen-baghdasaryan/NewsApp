@@ -19,7 +19,7 @@ class Main extends Component {
   }
 
   async componentDidMount() {
-    const res = await axios.get(`${process.env.REACT_APP_NEWS_API}everything?q=tesla&from=2021-09-03&pageSize=5&sortBy=publishedAt&apiKey=${process.env.REACT_APP_API_KEY}`)
+    const res = await axios.get(`${process.env.REACT_APP_NEWS_API}everything?q=tesla&from=2021-12-09&sortBy=publishedAt&apiKey=${process.env.REACT_APP_API_KEY}`)
     const data = await res.data
     this.setState({ news: [...this.state.news, ...data.articles] })
   }
