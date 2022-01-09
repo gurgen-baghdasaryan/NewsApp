@@ -5,7 +5,9 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
     align-items: stretch;
+    margin-bottom: 10px;
     @media only screen and (max-width:640px) {
         justify-content: center;
     }
