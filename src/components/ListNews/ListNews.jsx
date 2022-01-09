@@ -4,24 +4,15 @@ import Card from '../Card'
 
 class ListNews extends Component {
 
-  // state = {
-  //   news: [...this.props.noticias]
-  // }
-
-
-
-  paintNews(){
-
-     return  this.props.noticias.map((news , i) => <Card key={i} data={news} remove={this.props.remove}/>)
+  paintNews() {
+    return this.props.noticias.map((news, i) => <Card key={i} data={news} remove={this.props.remove} />)
   }
 
- 
-
   render() {
-    return (<div className="listNews" >
-      {this.paintNews()}
-
-    </div>
+    return (
+      <div className="listNews" >
+        {this.paintNews()}
+      </div>
     )
   }
 

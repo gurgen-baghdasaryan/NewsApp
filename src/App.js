@@ -17,7 +17,7 @@ class App extends Component {
   changeUserName = (userName) => {
     console.log("nameu", userName);
     this.setState({ user: userName })
-    
+
   }
 
   render() {
@@ -29,12 +29,12 @@ class App extends Component {
           <BrowserRouter>
             <Head />
             <Main changeUserName={this.changeUserName} />
-            
+
           </BrowserRouter>
-          <Footer/>
+          <Footer />
         </div>
       </userContext.Provider>
-      
+
 
     );
 
