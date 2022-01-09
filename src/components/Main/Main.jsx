@@ -8,9 +8,6 @@ import Home from "../Home"
 import Error from '../Error'
 
 
-
-
-
 class Main extends Component {
 
 

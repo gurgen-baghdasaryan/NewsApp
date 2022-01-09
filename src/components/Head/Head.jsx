@@ -11,7 +11,6 @@ class Head extends Component {
     return (
 
       <div className="head">
-        <h3>FN</h3>
         <Nav />
         <p>{this.context}</p>
       </div>
